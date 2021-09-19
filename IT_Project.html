@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<style>
-			body {font-size: 20px; background-color: Orange; text-align: center; margin: 0 auto; padding: 50px 200px;}
+			body {font-size: 20px; background-color: rgb(209, 170, 96); text-align: center; margin: 0 auto; padding: 50px 200px;}
 			h1 {text-align: center}
 			h2 {text-align: center}
 			h3 {text-align: center}
@@ -14,8 +14,115 @@
 
     <h1>Intro to IT: Team Unsure - Assignment 2</h1>
 		<h2>IT Project</h2>
+		<h2> Project Overview</h2>
+		<p>
+			Our project is based on an application or a website which is used for recruiting purposes, 
+			mostly for students. This site will cover various parts of the recruitment sectors including 
+			applicant or employee profiles, job advertisements in the area of the applicant as well as 
+			having mini courses to direct the employee in regards to the type of knowledge they need to 
+			have before applying for or entering a particular workplace. For example, if there was a job 
+			position available at a liquor handling store, the applicant will have access to a mini 
+			assessment / course module, which would give them an adequate amount of information, 
+			training as well as a certification, declaring them fit for the role.
+		</p>
+		
+		<h2>Motivation</h2>
+		<p>
+			Our main motivation behind this project is because it is so relatable to our current life as a uni student. 
+			We strongly believe every student should have a part time job along with their studies so they get experience
+			 and exposure from a professional workplace before they try and pursue the career of their post graduation. 
+			 However, we also know the difficulties one could face when trying to apply for the job. Sometimes after 
+			 applying for a job, one might not hear from the employer ever again in regards to the application or 
+			 sometimes even if they are notified about their application, it is not the news which they were hoping for. 
+			 We believe there should be a platform where students from high school and universities are given more than 
+			 just a job title to find out what their role would consist of in order to prepare themselves better for their employment.
+		</p>
+		
+		<h2> Project Description</h2>
+		<h3>Layout</h3>
+		<p> The layout of the site would be similar to a recruiting website’s layout. Meaning, this would contain the following basic features;
+		  <p> > A toolbar at the top of the page where job types can be searched by keywords.</p>
+		  <p> > Applicants can enter what location they are after as well as choosing a certain radius to the location entered.</p> 
+		  <p> > Type of employment they are after, that being part time, casual, fixed term or full time.</p> 
+		  <p> > Classification of the workplace. This can be chosen from a drop down menu which would basically contain all the jobs available in each respective sector. Some options from the drop down menu can include education, hospitality, sales, trades & services, etc.</p> 
+		  <p> > There wouldn’t be an option to select the desired remuneration rate as this site is mostly targeted towards students and a large percentage of such jobs do not show the hourly rate on an advertisement, as it is usually discussed in an interview or induction. </p> 
+		</p>
+		
+		<h2>Job advertisement example</h2>
+		<i> Team Member at Dan Murphy's Caroline Springs</i>
+		<p><b>Specific Requirments for the role;</b></p>
+		<p>> Over the age of 18</p>
+		<p>> Responsible service of Alcohol check (RSA)</p>
+		
+		<p>Each applicant for the job must have a RSA as it is a legal document/training required by the Victorian Government. 
+			The site will be able to guide the user to another page which will have exactly all the details required in order 
+			to complete the RSA.
+		</p>
+		<P> Once the applicant has completed the RSA or any required course / certification (such as the working with children’s check) 
+			all of their details will be linked to their account so it is easier for them to access all of their certificates 
+			or work related documents such as resumes and cover letters, every time they are applying for a job.
+		</P>
+		<p>All employers will have similar questions in regards to one’s working rights or questions about their previous working experience. 
+			All of these details will be pre-filled with the information provided by the user through their documents which they initially upload 
+			to the site, so that this can improve the timeliness of the applications and be much more convenient for the user. 
+		</p>
+		<h2>Employer Page</h2>
+		<p> Another feature which I would like to include in the site would be for the employers themselves. 
+			All employers through their sign in page will have access to the applicant’s profiles. 
+			This way, the process of hiring the correct employee can be streamlined, saving the business valuable time and money. 
+		</p>
+		<p> Successful applicants will receive a message from the site in regards to their application which will have further details 
+			in regards to their interview and the next steps. 
+		</p>
+		<p> Where does that leave the unsuccessful applicants? One common event across most recruitment firms is that the unsuccessful 
+			applicants are left high and dry in regards to their application and are not sure of what is happening. 
+			One of our main objectives is to make sure that the applicants are fully aware of each stage of the process. 
+			This includes;
+		</p>
+		<p>> Notifying them when an application is submitted.</p>
+		<p>> Application has been opened and read by the employer. </p>
+		<p>> Notification message when either both successful or unsuccessful.</p>
+		
+		<h2>Tools and Skills required</h2>
+		<p> As touched on initially, the website itself would likely be built in / with HTML and CSS code, 
+			so proficiency in both HTML and CSS would be required.
+			In addition, the website would likely require one or more databases, which would store the information for both
+			 the job applicants and employers. A variety of free database programs are available such as MySQL, MicrosoftSQL, PostgreSQL, 
+			 Mongo DB, CouchDB and DynamoDB however depending on the size and storage requirements a commercial (paid) database solution 
+			 may be required. Querying data from the database (and updating the database with user information) would require 
+			 a built database and knowledge of SQL to program the queries.
+			Accessing the database and displaying the returned data on the website would likely require both knowledge of, 
+			and programming skills in, a server-side scripting language such as PHP, Python, Ruby, C#, 
+			or JavaScript (NodeJS) (MDN Web Docs, n.d). Programming would also be required for sending
+			 communications / emails to the website users to confirm events like when their applications 
+			 have been submitted and advise when are being reviewed by an employer or recruiter etc. 
+			 Further website programming would be needed for managing user requests and interactions 
+			 such as document management (uploading or deleting a CV or certification etc), managing 
+			 the types of account communication / notifications sent received, updating account profiles 
+			 and password reset requests. The website would also need to either link users to outside websites 
+			 or have embedded information for education or certification requirements for the role being advertised.
+			For a functional and live product, IT security would also need to be considered, due to the data 
+			and documents etc being collected from applicants and employers. Protocols such as HTTPS 
+			(Hypertext Transfer Protocol Secure), SSL (Secure Sockets Layer) and SFTP (Secure File Transfer Protocol)
+			 would be required for the website and default website access privileges would need to be set for each type of user. 
+			 Consideration would likely need to be given to using secure web hosting services who may incorporate firewalls, 
+			 anti-virus, and possibly even more specialised website monitoring security software into their hosting services
+			
+		</p>
+		
+		<h2>Outcome</h2>
+		<p> If the site is successfully launched then we  believe it can assist 
+			a lot of people with their employment as well as firms with their recruitment. 
+			People will have access to all the relevant jobs according to their needs and 
+			if required will have the right accreditation for the role too. The process of 
+			recruitment can be an arduous one for most businesses without a large recruiting budget. 
+			The site should be able to successfully assist employers in choosing the right worker for 
+			their firm by showing them all the relevant details about the applicants.
+		</p>
+		
 
-    <p></p>
+
+    
 
     <a href="home.html">Back to home page</a>
 
